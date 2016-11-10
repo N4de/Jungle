@@ -7,8 +7,64 @@
 	<script src="semantic/dist/semantic.min.js"></script>
 </head>
 <body>
-	<button class="ui button">
-  	Follow
-  </button>
+	<nav id="navbar">
+		<div id="navbar-menu" class="ui borderless menu">
+			<div class="right menu">
+			  <a class="item">
+			    News
+			  </a>
+			  <a class="item">
+			    Intranet
+			  </a>
+			</div>
+			<div id="dropdown-container">
+				<div class="ui selection dropdown">
+				  <input type="hidden" name="language">
+				  <i class="dropdown icon"></i>
+				  <div class="default text">In English</div>
+				  <div class="menu">
+				    <div class="item" data-value="1">Suomeksi</div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<div class="content-wrapper">
+		<div id="secondary-header" class="container">
+			<div class="ui grid">
+				<div class="three wide column">
+					<div id="liana-logo">
+						<img src="http://www.lianatech.com/media/layout/img/kv/logo-liana-140.png">
+					</div>
+				</div>
+				<div class="four wide column">
+					<div id="secondary-header-menu" class="ui borderless menu">
+		  			<a class="item">Company</a>
+					  <a class="item">Products</a>
+					  <a class="item">Contact Us</a>
+					</div>
+				</div>
+				<div class="three wide column"></div>
+				<div class="three wide column">
+					<div class="ui search">
+				  	<input class="prompt" type="text" placeholder="Search">
+				  	<div class="results"></div>
+					</div>
+				</div>
+				<div class="one wide column">
+					<button class="ui green button">Search</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="main-image"></div>
+	<div id="little-images"></div>
+	<div id="stats"></div>
+	<div id="news"></div>
+	<div id="references"></div>
+	<div id="subscription"></div>
+	<footer>
+		
+	</footer>
 </body>
 </html>

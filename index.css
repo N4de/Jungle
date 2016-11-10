@@ -1,0 +1,86 @@
+#navbar {
+	height: 50px;
+	width: 100%;
+	background-color: green;
+}
+
+body {
+	font-family: "OpenSans";
+}
+
+#navbar-menu {
+	margin: auto 0;
+	padding-right: 100px;
+	background-color: green;
+	height: 50px;
+	width: 100%;
+}
+
+#dropdown-container {
+	margin: auto 1em;
+}
+
+.content-wrapper {
+	width: 75%;
+	margin: auto;
+}
+
+#secondary-header {
+	height: 100px;
+	margin: 0 auto;
+	padding: 25px;
+}
+
+#liana-logo {
+	position: absolute;
+}
+
+#secondary-header-menu {
+	border: 0;
+	box-shadow: none;
+	opacity: 0.5;
+}
+
+#main-image {
+	height: 350px;
+	background-color: black;
+	margin-bottom: 40px;
+}
+
+#little-images {
+	height: 200px;
+	margin-bottom: 40px;
+	background-color: pink;
+}
+
+#stats {
+	height: 100px;
+	background-color: green;
+	margin-bottom: 40px;
+}
+
+#news {
+	background-color: grey;
+	height: 250px;
+	margin-bottom: 40px;
+	opacity: 0.25;
+}
+
+#references {
+	height: 300px;
+	margin-bottom: 40px;
+	border-bottom: 2px solid grey;
+}
+
+#subscription {
+	height: 200px;
+	margin-bottom: 40px;
+	background-color: pink;
+}
+
+footer {
+	background-color: black;
+	height: 200px;
+}
+
+
