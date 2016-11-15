@@ -76,6 +76,13 @@ body {
 	background-color: pink;
 }
 
+.little-image-text {
+	position: absolute;
+	left: 136px;
+	top: 87px;
+	color: rgb(255, 255, 255);
+}
+
 #stats {
 	height: 100px;
 	background-color: green;
@@ -86,11 +93,15 @@ body {
 	background-color: grey;
 	height: 250px;
 	margin-bottom: 40px;
-	opacity: 0.25;
 }
 
 .news-box {
 	font-size: 24px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 5px;
+	margin: 5px;
+	max-width: 375px;
+
 }
 
 #references {
@@ -103,6 +114,11 @@ body {
 	height: 200px;
 	margin-bottom: 40px;
 	background-color: pink;
+	padding: 15px;
+}
+
+.subscription-text {
+	max-width: 250px;
 }
 
 footer {
