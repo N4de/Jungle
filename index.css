@@ -25,6 +25,11 @@ body {
 	margin: auto;
 }
 
+.big-wrapper {
+	width: 66%;
+	margin: auto;
+}
+
 #secondary-header {
 	height: 100px;
 	margin: 0 auto;
@@ -71,9 +76,7 @@ body {
 }
 
 #little-images {
-	height: 200px;
 	margin-bottom: 40px;
-	background-color: pink;
 }
 
 .little-image-text {
@@ -84,15 +87,52 @@ body {
 }
 
 #stats {
-	height: 100px;
-	background-color: green;
 	margin-bottom: 40px;
+}
+
+.stats-number {
+	position: absolute;
+	font-size: 56px;
+	font-family: "OpenSans";
+	color: rgb(55, 58, 60);
+	line-height: 0.429;
+	text-align: left;
+	top: 12px;
+	left: 110px;
+}
+
+.stats-text {
+	position: absolute;
+	font-size: 20px;
+	color: rgb(55, 58, 60);
+	line-height: 1.2;
+	text-align: left;
+	top: 50px;
+	left: 113px;
 }
 
 #news {
 	background-color: grey;
-	height: 250px;
+	min-height: 250px;
 	margin-bottom: 40px;
+	padding: 26px;
+}
+
+#news-header {
+	font-size: 32px;
+	font-family: "OpenSans";
+	color: rgb(55, 58, 60);
+	line-height: 0.75;
+	padding-top: 5px;
+	padding-bottom: 15px; 
+}
+
+.news-date {
+	font-size: 13px;
+	color: rgb(55, 58, 60);
+	line-height: 1.846;
+	text-align: left;
+	padding: 1px;
 }
 
 .news-box {
@@ -101,6 +141,7 @@ body {
 	border-radius: 5px;
 	margin: 5px;
 	max-width: 375px;
+	padding: 10px;
 
 }
 
