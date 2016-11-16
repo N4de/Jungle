@@ -8,7 +8,7 @@
  * http://opensource.org/licenses/MIT
  *
  */
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic&subset=latin');
 /*!
  * # Semantic UI 2.2.6 - Reset
  * http://github.com/semantic-org/semantic-ui/
@@ -65,7 +65,7 @@ input[type="password"] {
  */
 
 html {
-  font-family: sans-serif;
+  font-family: "OpenSans";
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -524,7 +524,7 @@ body {
   overflow-x: hidden;
   min-width: 320px;
   background: #FFFFFF;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'OpenSans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 1.4285em;
   color: rgba(0, 0, 0, 0.87);
@@ -540,7 +540,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'OpenSans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   line-height: 1.2857em;
   margin: calc(2rem -  0.14285em ) 0em 1rem;
   font-weight: bold;
