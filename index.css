@@ -10,7 +10,7 @@ body {
 
 #navbar-menu {
 	margin: auto 0;
-	padding-right: 100px;
+	padding-right: 19%;
 	background-color: green;
 	width: 100%;
 }
@@ -85,8 +85,9 @@ body {
 
 .little-image-text {
 	position: absolute;
-	left: 136px;
-	top: 87px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 	color: rgb(255, 255, 255);
 }
 
