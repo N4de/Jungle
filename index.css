@@ -41,7 +41,6 @@ img {
 }
 
 #secondary-header {
-	height: 100px;
 	margin: 0 auto;
 	padding: 25px;
 }
@@ -107,24 +106,29 @@ img {
 }
 
 .stats-number {
-	position: absolute;
 	font-size: 56px;
-	font-family: "OpenSans";
 	color: rgb(55, 58, 60);
 	line-height: 0.429;
-	text-align: left;
-	top: 12px;
-	left: 110px;
+	padding: 10px;
 }
 
 .stats-text {
-	position: absolute;
 	font-size: 20px;
 	color: rgb(55, 58, 60);
 	line-height: 1.2;
+	padding: 10px;
+}
+
+.stats-container {
 	text-align: left;
-	top: 50px;
-	left: 113px;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	position: absolute;
+}
+
+.stats-column {
+	position: relative;
 }
 
 #news {
@@ -167,46 +171,41 @@ img {
 	padding-bottom: 56px;
 }
 
-.reference-container {
-	
-}
-
 #reference-header {
 	margin-bottom: 40px;
 }
 
 .layer-container {
 	border: 1px solid rgb(244, 244, 244);
+	flex: 1;
 }
 
 .layer-text-container {
 	padding: 25px;
-	border: 1px solid rgb(244, 244, 244);
-	border-top: 0;
+}
+
+.layer-image {
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 50% 50%;
+	height: 150px;
+	border-bottom: 1px solid rgb(244, 244, 244);
 }
 
 .layer-1 {
-	height: 150px;
 	background-image: url("images/Layer 1.png");
-	background-repeat: no-repeat;
 }
 
 .layer-2 {
-	height: 150px;
 	background-image: url("images/Layer 2.png");
-	background-repeat: no-repeat;
 }
 
 .layer-3 {
-	height: 150px;
 	background-image: url("images/Layer 3.png");
-	background-repeat: no-repeat;
 }
 
 .layer-4 {
-	height: 150px;
 	background-image: url("images/Layer 4.png");
-	background-repeat: no-repeat;
 }
 
 .reference-name {
@@ -228,6 +227,10 @@ img {
 
 #subscription-header {
 	font-size: 2rem;
+}
+
+.subscription-input {
+	width: 90%;
 }
 
 .subscription-text {
