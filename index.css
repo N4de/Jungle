@@ -1,4 +1,5 @@
-body {
+body, h1, h2, h3, h4, h5, h6, p {
+	font-family: "Open Sans"
 }
 
 button {
@@ -16,7 +17,6 @@ img {
 #navbar {
 	width: 100%;
 	background-color: rgb(76, 137, 48);
-	font-family: "OpenSans";
 	font-weight: 300;
 }
 
@@ -27,7 +27,6 @@ img {
 
 #navbar-menu {
 	margin: auto 0;
-	padding-right: 19%;
 	background-color: green;
 	width: 100%;
 }
@@ -53,17 +52,20 @@ img {
 
 #secondary-header {
 	margin: 0 auto;
-	padding: 25px;
+	padding: 10px 0;
 }
 
 #liana-logo {
-	position: absolute;
+	
 }
 
 #secondary-header-menu {
 	border: 0;
 	box-shadow: none;
-	opacity: 0.5;
+}
+
+.secondary-header-text-link {
+	opacity: 0.5
 }
 
 #main-image {
@@ -76,7 +78,7 @@ img {
 }
 
 #main-image h2 {
-	margin: 0;
+	margin-bottom: 20px;
 }
 
 #image-elements {
@@ -95,7 +97,6 @@ img {
 
 .learn-more {
 	font-size: 20px;
-	font-family: "OpenSans";
 	color: rgb(255, 255 ,255);
 	line-height: 1.25;
 }
@@ -152,7 +153,6 @@ img {
 
 #news-header {
 	font-size: 32px;
-	font-family: "OpenSans";
 	color: rgb(55, 58, 60);
 	line-height: 0.75;
 	padding-top: 5px;
@@ -253,15 +253,16 @@ img {
 	padding-bottom: 22px; 
 }
 
-footer {
+#footer {
 	background-color: black;
 	padding: 50px 75px;
+	width: 100%;
+	color: rgb(255, 255, 255);
 }
 
 .footer-header {
 	font-size: 20px;
 	color: rgb(255, 255, 255);
-	font-family: "OpenSans";
 }
 
 #footer-menu {
@@ -271,7 +272,6 @@ footer {
 
 .sales-and-inquiries {
 	font-size: 16px;
-	font-family: "OpenSans";
 	line-height: 1.5;
 	text-align: left;
 	font-weight: 600;
@@ -289,7 +289,7 @@ footer {
 	float: left;
 }
 
-footer div .item {
+#footer div .item {
 	color: rgb(255, 255, 255);
 }
 

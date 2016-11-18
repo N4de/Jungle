@@ -7,8 +7,9 @@
 	<script src="semantic/dist/semantic.min.js"></script>
 </head>
 <body>
-	<nav id="navbar">
+	<div id="navbar">
 		<div id="navbar-menu" class="ui borderless menu">
+		<div class="ui container">
 			<div class="right menu">
 			  <a class="item">
 			    News
@@ -24,36 +25,32 @@
 				  <div class="default text">In English</div>
 				  <div class="menu">
 				    <div class="item" data-value="1">Suomeksi</div>
-				  </div>
+					</div>
 				</div>
 			</div>
+		</div>	
 		</div>
-	</nav>
+	</div>
 	<div class="ui container">
-		<div id="secondary-header" class="container">
-			<div class="ui grid">
-				<div class="three wide column">
+		<div id="secondary-header">
+			<div id="secondary-header-menu" class="ui borderless menu">
+				<a class="item">
 					<div id="liana-logo">
 						<img src="http://www.lianatech.com/media/layout/img/kv/logo-liana-140.png">
 					</div>
-				</div>
-				<div class="four wide column">
-					<div id="secondary-header-menu" class="ui borderless menu">
-		  			<a class="item">Company</a>
-					  <a class="item">Products</a>
-					  <a class="item">Contact Us</a>
-					</div>
-				</div>
-				<div class="three wide column"></div>
-				<div class="three wide column">
-					<div class="ui search">
-				  	<input class="prompt" type="text" placeholder="Search">
-				  	<div class="results"></div>
-					</div>
-				</div>
-				<div class="one wide column">
-					<button class="ui green button">Search</button>
-				</div>
+				</a>
+  			<a class="item"><span class="secondary-header-text-link">Company</span></a>
+			  <a class="item"><span class="secondary-header-text-link">Products</span></a>
+			  <a class="item"><span class="secondary-header-text-link">Contact Us</span></a>
+			  <div class="right menu">
+			  	<div class="item">
+						<div class="ui input">
+					  	<input class="prompt" type="text" placeholder="Search">
+					  	<div class="results"></div>
+						</div>
+						<button class="ui green button">Search</button>
+			  	</div>
+			  </div>
 			</div>
 		</div>
 	</div>
@@ -208,7 +205,7 @@
 				</div>
 	  	</div>
 		</div>
-	<footer class="container">
+	<div id="footer" class="ui container">
 		<div id="footer-menu" class="ui inverted borderless menu">
 			<div class="menu">
 				<div class="item footer-header-box">
@@ -246,7 +243,7 @@
 						<button id="footer-contact-button" class="ui green button">Contact us</button>
 					</div>
 				</div>
-				<div class="nine wide column"><p>a</p></div>
+				<div class="nine wide column"></div>
 				<div class="two wide column">
 					<div class="footer-list-container">
 						<button class="ui green circular twitter icon button">
@@ -261,6 +258,7 @@
 					</div>
 				</div>
 			</div>
-	</footer>
+	</div>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
 </body>
 </html>
