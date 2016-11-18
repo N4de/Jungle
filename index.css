@@ -1,6 +1,10 @@
 body {
 }
 
+button {
+	background-color: rgb(76, 137, 48);
+}
+
 img {
 	max-width: 100%;
 }
@@ -11,8 +15,15 @@ img {
 
 #navbar {
 	width: 100%;
-	background-color: green;
+	background-color: rgb(76, 137, 48);
+	font-family: "OpenSans";
+	font-weight: 300;
 }
+
+#navbar a {
+	color: rgb(255, 255, 255);
+}
+
 
 #navbar-menu {
 	margin: auto 0;
@@ -90,6 +101,7 @@ img {
 }
 
 #little-images {
+	width: 100%;
 	margin-bottom: 40px;
 }
 
@@ -178,6 +190,7 @@ img {
 .layer-container {
 	border: 1px solid rgb(244, 244, 244);
 	flex: 1;
+	max-width: 250px;
 }
 
 .layer-text-container {
@@ -253,8 +266,35 @@ footer {
 
 #footer-menu {
 	background-color: black;
+	margin-bottom: 40px;
+}
+
+.sales-and-inquiries {
+	font-size: 16px;
+	font-family: "OpenSans";
+	line-height: 1.5;
+	text-align: left;
+	font-weight: 600;
+}
+
+.footer-round-buttons {
+	float: right;
+}
+
+#footer-list {
+	position: relative;
+}
+
+#footer-list-container {
+	float: left;
 }
 
 footer div .item {
 	color: rgb(255, 255, 255);
+}
+
+.footer-list-container {
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
