@@ -1,9 +1,11 @@
-body, h1, h2, h3, h4, h5, h6, p {
+body, h1, h2, h3, h4, h5, h6, p{
 	font-family: "Open Sans"
 }
 
-button {
+#secondary-header button {
 	background-color: rgb(76, 137, 48);
+	font-family: "Open Sans";
+	color: rgb(255, 255, 255);
 }
 
 img {
@@ -27,7 +29,7 @@ img {
 
 #navbar-menu {
 	margin: auto 0;
-	background-color: green;
+	background-color: rgb(76, 137, 48);
 	width: 100%;
 }
 
@@ -46,17 +48,13 @@ img {
 }
 
 .huge-wrapper {
-	width: 33%;
+	max-width: 500px;
 	margin: auto;
 }
 
 #secondary-header {
 	margin: 0 auto;
 	padding: 10px 0;
-}
-
-#liana-logo {
-	
 }
 
 #secondary-header-menu {
@@ -89,10 +87,17 @@ img {
 	width: 100%;
 }
 
+#image-elements button {
+	background-color: rgb(76, 137, 48);
+	font-family: "Open Sans";
+	color: rgb(255, 255, 255);
+}
+
 .software-fueling-digital-marketing {
 	font-size: 56px;
 	color: rgb(255, 255, 255);
 	line-height: 1.429;
+	font-weight: 300;
 }
 
 .learn-more {
@@ -106,6 +111,10 @@ img {
 	margin-bottom: 40px;
 }
 
+#little-images img {
+	width: 100%;
+}
+
 .little-image-text {
 	position: absolute;
 	left: 50%;
@@ -116,28 +125,32 @@ img {
 
 #stats {
 	margin-bottom: 40px;
+	text-align: center;
+}
+
+#stats img {
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .stats-number {
 	font-size: 56px;
-	color: rgb(55, 58, 60);
-	line-height: 0.429;
-	padding: 10px;
+	font-weight: 300;
 }
 
 .stats-text {
-	font-size: 20px;
+	margin-top: 0.5em;
 	color: rgb(55, 58, 60);
-	line-height: 1.2;
-	padding: 10px;
+	font-size: 20px;
+	font-weight: 500;
 }
 
 .stats-container {
 	text-align: left;
-	transform: translate(-50%, -50%);
-	top: 50%;
-	left: 50%;
-	position: absolute;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 15%;
+	line-height: 1;
 }
 
 .stats-column {
@@ -168,7 +181,7 @@ img {
 }
 
 .news-box {
-	font-size: 24px;
+	font-size: 20px;
 	background-color: rgb(255, 255, 255);
 	border-radius: 5px;
 	margin: 5px;
@@ -190,7 +203,7 @@ img {
 .layer-container {
 	border: 1px solid rgb(244, 244, 244);
 	flex: 1;
-	max-width: 250px;
+	width: 100%;
 }
 
 .layer-text-container {
@@ -246,6 +259,12 @@ img {
 	width: 90%;
 }
 
+#subscription-button {
+	background-color: rgb(76, 137, 48);
+	font-family: "Open Sans";
+	color: rgb(255, 255, 255);
+}
+
 .subscription-text {
 	font-size: 16px;
 	line-height: 1.5;
@@ -277,12 +296,35 @@ img {
 	font-weight: 600;
 }
 
+#footer-contact-button {
+	background-color: rgb(76, 137, 48);
+	font-family: "Open Sans";
+	color: rgb(255, 255, 255);
+}
+
 .footer-round-buttons {
 	float: right;
 }
 
+#twitter-button {
+	background-color: rgb(76, 137, 48);
+	font-family: "Open Sans";
+	color: rgb(255, 255, 255);
+}
+
+#linkedin-button {
+	background-color: rgb(76, 137, 48);
+	font-family: "Open Sans";
+	color: rgb(255, 255, 255);
+}
+
+#facebook-button  {
+	background-color: rgb(76, 137, 48);
+	font-family: "Open Sans";
+	color: rgb(255, 255, 255);
+}
+
 #footer-list {
-	position: relative;
 }
 
 #footer-list-container {
@@ -294,7 +336,4 @@ img {
 }
 
 .footer-list-container {
-	position: absolute;
-	bottom: 0;
-	left: 0;
 }

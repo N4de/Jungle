@@ -35,7 +35,7 @@
 		<div id="secondary-header">
 			<div id="secondary-header-menu" class="ui borderless menu">
 				<a class="item">
-					<div id="liana-logo">
+					<div>
 						<img src="http://www.lianatech.com/media/layout/img/kv/logo-liana-140.png">
 					</div>
 				</a>
@@ -48,7 +48,7 @@
 					  	<input class="prompt" type="text" placeholder="Search">
 					  	<div class="results"></div>
 						</div>
-						<button class="ui green button">Search</button>
+						<button class="ui button">Search</button>
 			  	</div>
 			  </div>
 			</div>
@@ -57,11 +57,11 @@
 	<div id="main-image" class="ui fluid container">
 		<div id="image-elements">
 			<h2 class="software-fueling-digital-marketing center aligned">Software fueling digital marketing</h2>
-			<button class="learn-more ui green button">Learn more</button>
+			<button class="learn-more ui button">Learn more</button>
 		</div>
 	</div>
 	<div class="ui container">
-		<div id="little-images" class="ui three column stackable grid">
+		<div id="little-images" class="ui three column stackable doubling grid">
 	    <div class="column">
 	    	<img src="images/sisallontuotantoa.png">
 	    	<h2 class="little-image-text">Company</h2>
@@ -76,44 +76,28 @@
 	    </div>
 		</div>
 	</div>
-	<div class="ui container">
-		<div id="stats" class="ui three column stackable grid">
-			<div class="column">
-				<div class="ui two column grid">
-					<div class="column">
-						<img src="images/Business.png">
-					</div>
-					<div class="column">
-						<div class="stats-container">
-							<span class="stats-number">3000</span>
-							<span class="stats-text">Clients</span>
-						</div>
+	<div id="stats">
+		<div class="ui container">
+			<div class="ui three column stackable grid">	
+				<div class="column">
+					<img src="images/Business.png">
+					<div class="stats-container">
+						<div class="stats-number">3000</div>
+						<div class="stats-text">Clients</div>
 					</div>
 				</div>
-			</div>
-			<div class="column">
-				<div class="ui two column grid">
-					<div class="column">
-						<img src="images/Face.png">
-					</div>
-					<div class="column">
-						<div class="stats-container">
-							<span class="stats-number">180</span>
-							<span class="stats-text">Employees</span>
-						</div>
+				<div class="column">
+					<img src="images/Face.png">
+					<div class="stats-container">
+						<div class="stats-number">180</div>
+						<div class="stats-text">Employees</div>
 					</div>
 				</div>
-			</div>
-			<div class="column">
-				<div class="ui two column grid">
-					<div class="column">
-						<img src="images/Public.png">
-					</div>
-					<div class="column">
-						<div class="stats-container">
-							<span class="stats-number">10000</span>
-							<span class="stats-text">Daily users</span>
-						</div>
+				<div class="column">
+					<img src="images/Public.png">
+					<div class="stats-container">
+						<div class="stats-number">10000</div>
+						<div class="stats-text">Daily users</div>
 					</div>
 				</div>
 			</div>
@@ -121,19 +105,25 @@
 	</div>
 	<div id="news" class="container">
 		<h2 id="news-header" class="ui center aligned header">Latest News</h2>
-		<div class="ui grid container">
+		<div class="ui stackable grid container">
 			<div class="three column row">
-				<div class="column news-box">
-					<span class="news-date">27.07.2016</span>
-					<p>Liana Technologies and Encode Solutions merge to create unique mobile solutions</p>
+				<div class="column">
+					<div class="news-box">
+						<span class="news-date">27.07.2016</span>
+						<p>Liana Technologies and Encode Solutions merge to create unique mobile solutions</p>
+					</div>
 				</div>
-				<div class="column news-box">
-					<span class="news-date">28.01.2016</span>
-					<p>From a local startup to a global player: Liana Technologies among the forerunners of digital marketing technology</p>
+				<div class="column">
+					<div class="news-box">
+						<span class="news-date">28.01.2016</span>
+						<p>From a local startup to a global player: Liana Technologies among the forerunners of digital marketing technology</p>
+					</div>
 				</div>
-				<div class="column news-box">
-					<span class="news-date">02.07.2015</span>
-					<p>Liana Technologies Hong Kong launched a series of digital marketing events in June</p>
+				<div class="column">
+					<div class="news-box">
+						<span class="news-date">02.07.2015</span>
+						<p>Liana Technologies Hong Kong launched a series of digital marketing events in June</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -200,7 +190,7 @@
 	  	<div class="ui container">
 			  	<div class="ui input subscription-input">
 		  			<input type="email" placeholder="Your email address">
-		  			<button class="ui green right floated button">Subscribe</button>
+		  			<button id="subscription-button" class="ui right floated button">Subscribe</button>
 		  		</div>
 				</div>
 	  	</div>
@@ -232,7 +222,7 @@
 		</div>
 			<div class="ui grid">
 				<div id="footer-list" class="three wide column">
-					<div class="footer-list-container ui list">
+					<div class="ui list">
 					  <div class="item"><span class="sales-and-inquiries">Sales and inquiries</span></div>
 					  <div class="item">Email: sales@lianatech.com</div>
 					  <div class="item">Phone: +358 10 387 7053</div>
@@ -240,19 +230,19 @@
 				</div>
 				<div class="two wide column">
 					<div class="footer-list-container">
-						<button id="footer-contact-button" class="ui green button">Contact us</button>
+						<button id="footer-contact-button" class="ui button">Contact us</button>
 					</div>
 				</div>
 				<div class="nine wide column"></div>
 				<div class="two wide column">
 					<div class="footer-list-container">
-						<button class="ui green circular twitter icon button">
+						<button id="twitter-button" class="ui circular twitter icon button">
 							<i class="twitter icon"></i>
 						</button>
-						<button class="ui green circular linkedin icon button">
+						<button id="linkedin-button" class="ui circular linkedin icon button">
 							<i class="linkedin icon"></i>
 						</button>
-						<button class="ui green circular facebook icon button">
+						<button id="facebook-button" class="ui circular facebook icon button">
 							<i class="facebook f icon"></i>
 						</button>
 					</div>
