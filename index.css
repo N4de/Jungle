@@ -300,6 +300,7 @@ img {
 	background-color: rgb(76, 137, 48);
 	font-family: "Open Sans";
 	color: rgb(255, 255, 255);
+	vertical-align: bottom;
 }
 
 .footer-round-buttons {
@@ -310,18 +311,21 @@ img {
 	background-color: rgb(76, 137, 48);
 	font-family: "Open Sans";
 	color: rgb(255, 255, 255);
+	display: inline-block;
 }
 
 #linkedin-button {
 	background-color: rgb(76, 137, 48);
 	font-family: "Open Sans";
 	color: rgb(255, 255, 255);
+	display: inline-block;
 }
 
 #facebook-button  {
 	background-color: rgb(76, 137, 48);
 	font-family: "Open Sans";
 	color: rgb(255, 255, 255);
+	display: inline-block;
 }
 
 #footer-list {
