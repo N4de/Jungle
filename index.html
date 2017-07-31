@@ -3,12 +3,17 @@
 <head>
 	<title>Liana Technologies Recruiment Demo</title>
 	<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
-	<link rel="stylesheet" type="text/css" href="index.css">
+	<script
+	  src="https://code.jquery.com/jquery-3.1.1.min.js"
+	  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	  crossorigin="anonymous"></script>
 	<script src="semantic/dist/semantic.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript" src="index.js"></script>
 </head>
 <body>
 	<div id="navbar">
-		<div id="navbar-menu" class="ui borderless menu">
+		<div id="navbar-menu" class="ui stackable borderless menu">
 		<div class="ui container">
 			<div class="right menu">
 			  <a class="item">
@@ -18,22 +23,21 @@
 			    Intranet
 			  </a>
 			</div>
-			<div id="dropdown-container">
-				<div class="ui selection dropdown">
-				  <input type="hidden" name="language">
-				  <i class="dropdown icon"></i>
-				  <div class="default text">In English</div>
-				  <div class="menu">
-				    <div class="item" data-value="1">Suomeksi</div>
-					</div>
-				</div>
+			<div class="ui compact menu">
+			  <div class="ui simple dropdown item">
+			    In English
+			    <i class="dropdown icon"></i>
+			    <div class="menu">
+			      <div class="item">Suomeksi</div>
+			    </div>
+			  </div>
 			</div>
 		</div>	
 		</div>
 	</div>
 	<div class="ui container">
 		<div id="secondary-header">
-			<div id="secondary-header-menu" class="ui borderless menu">
+			<div id="secondary-header-menu" class="ui stackable borderless menu">
 				<a class="item">
 					<div>
 						<img src="http://www.lianatech.com/media/layout/img/kv/logo-liana-140.png">
@@ -54,7 +58,7 @@
 			</div>
 		</div>
 	</div>
-	<div id="main-image" class="ui fluid container">
+	<div id="main-image" class="ui fluid container parallax">
 		<div id="image-elements">
 			<h2 class="software-fueling-digital-marketing center aligned">Software fueling digital marketing</h2>
 			<button class="learn-more ui button">Learn more</button>
@@ -82,7 +86,7 @@
 				<div class="column">
 					<img src="images/Business.png">
 					<div class="stats-container">
-						<div class="stats-number">3000</div>
+						<div class="stats-number count">3000</div>
 						<div class="stats-text">Clients</div>
 					</div>
 				</div>
